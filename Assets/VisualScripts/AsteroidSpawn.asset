@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: AsteroidSpawn
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-285.0927,"y":-15.33336},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-724.0,"y":-339.0},"guid":"3cc2f12c-fd6c-4bac-adcd-f62112dc8988","$version":"A","$type":"Unity.VisualScripting.Start"},{"chainable":false,"parameterNames":["name"],"member":{"name":"Find","parameterTypes":["System.String"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"%name":{"$content":"Player","$type":"System.String"}},"position":{"x":-946.0,"y":-184.0},"guid":"c3e31a28-7f63-4c5a-a8ed-a79b79b510a4","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"11"},{"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null},"position":{"x":-727.0,"y":-198.0},"guid":"3c23aa77-3e8f-432b-b1dc-75d43b5ea6b6","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"15"},{"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null},"position":{"x":-730.0,"y":-76.0},"guid":"6c0020d6-fa89-484e-a659-e9ff3b4c4908","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"18"},{"defaultValues":{},"position":{"x":-553.0,"y":-159.0},"guid":"125cf14b-137c-4f69-9a34-9aa26f46c17b","$version":"A","$type":"Unity.VisualScripting.GenericSubtract","$id":"21"},{"member":{"name":"normalized","parameterTypes":null,"targetType":"UnityEngine.Vector2","targetTypeName":"UnityEngine.Vector2","$version":"A"},"defaultValues":{"target":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"}},"position":{"x":-366.0,"y":-155.0},"guid":"599a041e-49c5-4a82-bf4f-2c1335ff6d29","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"23"},{"sourceUnit":{"$ref":"11"},"sourceKey":"result","destinationUnit":{"$ref":"15"},"destinationKey":"target","guid":"5d3a7dbe-b758-47ad-a38d-48b15d12b421","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"21"},"destinationKey":"minuend","guid":"536bd502-3487-45d0-a352-0c4667d9581f","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"21"},"destinationKey":"subtrahend","guid":"2cb72586-a590-4969-84db-2a6aa5ea4f3b","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"difference","destinationUnit":{"$ref":"23"},"destinationKey":"target","guid":"57692261-eaf9-4579-90a4-c78582ccb879","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
